@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "notification"
+version = "0.1.0"
+description = ""
+authors = ["azfarmasood4 <azfarmasood22@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+sqlmodel = "^0.0.19"
+uvicorn = {extras = ["standard"], version = "^0.30.1"}
+pusher = "^3.3.2"
+flet = "^0.23.1"
+pusherclient = "^0.3.0"
+pysher = "^1.0.8"
+mailjet-rest = "^1.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
